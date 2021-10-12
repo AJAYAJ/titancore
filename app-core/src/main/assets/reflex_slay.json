@@ -1,0 +1,78 @@
+{
+  "name": "Reflex Slay",
+  "pinPairing": true,
+  "notify": true,
+  "mtu": 20,
+  "dfu": true,
+  "dfuService": [
+    "00001530-1212-EFDE-1523-785FEABCD123"
+  ],
+  "services": [
+    {
+      "uuid": "7658fd00-878a-4350-a93e-da553e719ed0",
+      "required": true,
+      "characteristics": [
+        {
+          "uuid": "7658fd01-878a-4350-a93e-da553e719ed0",
+          "type": "W"
+        },
+        {
+          "uuid": "7658fd05-878a-4350-a93e-da553e719ed0",
+          "type": "W"
+        },
+        {
+          "uuid": "7658fd02-878a-4350-a93e-da553e719ed0",
+          "type": "N",
+          "cccd": "00002902-0000-1000-8000-00805f9b34fb"
+        },
+        {
+          "uuid": "7658fd03-878a-4350-a93e-da553e719ed0",
+          "type": "N",
+          "cccd": "00002902-0000-1000-8000-00805f9b34fb"
+        },
+        {
+          "uuid": "7658fd04-878a-4350-a93e-da553e719ed0",
+          "type": "W",
+          "cccd": "00002902-0000-1000-8000-00805f9b34fb"
+        }
+      ]
+    }
+  ],
+  "options": {
+    "steps": true,
+    "sleep": true,
+    "heartRate": true,
+    "multiSport": true
+  },
+  "settings": {
+    "notifications": true,
+    "stepsGoal": true,
+    "sleepGoal": true,
+    "multiSportGoal": true,
+    "bandLayout": false,
+    "unitSystem": true,
+    "liftToView": true,
+    "sedentaryAlert": true,
+    "autoHeartRate": true,
+    "pair": true,
+    "autoSleep": false,
+    "findPhone": true,
+    "findBand": true,
+    "antiLost": false,
+    "alarm": true,
+    "factoryReset": false,
+    "dnd": true,
+    "about": true,
+    "ota": false,
+    "watchFace": false,
+    "eventLog": true,
+    "batteryOptimization": true
+  },
+  "aboutBand": {
+    "termsAndConditionsURL": "https://www.fastrack.in/content/privacy-policy",
+    "privacyPolicyURL": "https://www.fastrack.in/content/privacy-policy",
+    "bandUserManualURL": "https://www.fastrack.in/collections/reflex-3/user-manual",
+    "aboutTheProductURL": "https://www.fastrack.in/shop/watch-smart-wearables",
+    "aboutCompanyURL": "https://www.titancompany.in/"
+  }
+}

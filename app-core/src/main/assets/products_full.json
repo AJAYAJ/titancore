@@ -1,0 +1,86 @@
+{
+  "group": "FASTRACK",
+  "products": [
+    {
+      "name": "Reflex 1.0",
+      "id": 1,
+      "code": "REFLEX_1",
+      "filter": {
+        "UUIDs": [
+          "7905FF00-B5CE-4E99-A40F-4B1E122D00D0",
+          "d0a2ff00-2996-d38b-e214-86515df5a1df",
+          "0000ff00-0000-1000-8000-00805f9b34fb"
+        ],
+        "dfu": [
+          "00001530-1212-EFDE-1523-785FEABCD123"
+        ],
+        "name": "w307n"
+      },
+      "sortingID": -1000
+    },
+    {
+      "name": "Reflex 2.0",
+      "id": 2,
+      "code": "REFLEX_2",
+      "filter": {
+        "UUIDs": [
+          "d0a2ff00-2996-d38b-e214-86515df5a1df",
+          "0000ff00-0000-1000-8000-00805f9b34fb"
+        ],
+        "name": "reflex"
+      },
+      "sortingID": -2000
+    },
+    {
+      "name": "Reflex Beat",
+      "id": 3,
+      "code": "REFLEX_BEAT",
+      "filter": {
+        "UUIDs": [
+          "d0a2ff00-2996-d38b-e214-86515df5a1df",
+          "0000ff00-0000-1000-8000-00805f9b34fb"
+        ],
+        "name": "beat"
+      },
+      "sortingID": -3000
+    },
+    {
+      "name": "Reflex 3.0",
+      "id": 4,
+      "code": "REFLEX_3",
+      "filter": {
+        "UUIDs": [
+          "00000af0-0000-1000-8000-00805f9b34fb"
+        ],
+        "name": "FT_Reflex3.0",
+        "sortingID": -5000
+      }
+    },
+    {
+      "name": "Reflex 2C",
+      "id": 5,
+      "code": "REFLEX_2C",
+      "filter": {
+        "UUIDs": [
+          "d0a2ff00-2996-d38b-e214-86515df5a1df",
+          "0000ff00-0000-1000-8000-00805f9b34fb"
+        ],
+        "name": "reflex2c",
+        "sortingID": -4000
+      }
+    },
+    {
+      "name": "Reflex Slay",
+      "id": 6,
+      "code": "SLAY",
+      "filter": {
+        "UUIDs": [
+          "7658fd00-878a-4350-a93e-da553e719ed0",
+          "0000fd00-0000-1000-8000-00805f9b34fb"
+        ],
+        "name": "W560"
+      },
+      "sortingID": -6000
+    }
+  ]
+}

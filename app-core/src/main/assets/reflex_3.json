@@ -1,0 +1,74 @@
+{
+  "name": "Reflex 3.0",
+  "pinPairing": false,
+  "notify": true,
+  "mtu": 120,
+  "dfu": true,
+  "dfuService": [
+    "00001530-1212-EFDE-1523-785FEABCD123"
+  ],
+  "services": [
+    {
+      "uuid": "00000aF0-0000-1000-8000-00805f9b34fb",
+      "required": true,
+      "characteristics": [
+        {
+          "uuid": "00000aF6-0000-1000-8000-00805f9b34fb",
+          "type": "RW"
+        },
+        {
+          "uuid": "00000aF7-0000-1000-8000-00805f9b34fb",
+          "type": "RN",
+          "cccd": "00002902-0000-1000-8000-00805f9b34fb"
+        },
+        {
+          "uuid": "00000aF1-0000-1000-8000-00805f9b34fb",
+          "type": "RW"
+        },
+        {
+          "uuid": "00000aF2-0000-1000-8000-00805f9b34fb",
+          "type": "RN",
+          "cccd": "00002902-0000-1000-8000-00805f9b34fb"
+        }
+      ]
+    }
+  ],
+  "options": {
+    "steps": true,
+    "sleep": true,
+    "heartRate": true,
+    "multiSport": true
+  },
+  "settings": {
+    "notifications": true,
+    "stepsGoal": true,
+    "sleepGoal": true,
+    "multiSportGoal": true,
+    "bandLayout": false,
+    "unitSystem": true,
+    "liftToView": true,
+    "sedentaryAlert": true,
+    "autoHeartRate": true,
+    "pair": true,
+    "autoSleep": false,
+    "findPhone": true,
+    "findBand": false,
+    "antiLost": false,
+    "alarm": true,
+    "factoryReset": false,
+    "dnd": true,
+    "about": true,
+    "ota": true,
+    "watchFace": true,
+    "eventLog": true,
+    "weatherForecast": true,
+    "batteryOptimization": true
+  },
+  "aboutBand": {
+    "termsAndConditionsURL": "https://www.fastrack.in/content/privacy-policy",
+    "privacyPolicyURL": "https://www.fastrack.in/content/privacy-policy",
+    "bandUserManualURL": "https://www.fastrack.in/collections/reflex-3/user-manual",
+    "aboutTheProductURL": "https://www.fastrack.in/shop/watch-smart-wearables",
+    "aboutCompanyURL": "https://www.titancompany.in/"
+  }
+}

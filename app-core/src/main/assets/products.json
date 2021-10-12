@@ -1,0 +1,17 @@
+{
+  "group": "FASTRACK",
+  "products": [
+    {
+      "name": "Reflex 3.0",
+      "id": 4,
+      "code": "REFLEX_3",
+      "filter": {
+        "UUIDs": [
+          "00000af0-0000-1000-8000-00805f9b34fb"
+        ],
+        "name": "FT_Reflex3.0",
+        "sortingID": -5000
+      }
+    }
+  ]
+}
