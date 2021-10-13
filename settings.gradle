@@ -8,7 +8,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Core"
 include ':app'
-include ':log'
-include ':logger'
-include ':ble-sdk'
-include ':app-core'
